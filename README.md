@@ -103,11 +103,12 @@ A high level project roadmap is available [here](https://www.dronecode.org/roadm
 
 git submodule update --init --recursive
 
+Firmware/src/lib/version/px_update_git_header.py 변경
 ```        
-        if major < 1 or (major == 1 and minor < 8):
-            print("")
-            print("Error: PX4 version too low, expected at least v1.9.0")
-            print("Check the git tag (current tag: '{:}')".format(git_tag_test))
-            print("")
-            sys.exit(1)
+if major < 1 or (major == 1 and minor < 8):
+  print("")
+  print("Error: PX4 version too low, expected at least v1.9.0")
+  print("Check the git tag (current tag: '{:}')".format(git_tag_test))
+  print("")
+  sys.exit(1)
 ```
