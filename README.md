@@ -112,3 +112,5 @@ if major < 1 or (major == 1 and minor < 8):
   print("")
   sys.exit(1)
 ```
+gazebo link error 날 경우
+sudo apt upgrade libignition-math2
