@@ -113,6 +113,9 @@ if major < 1 or (major == 1 and minor < 8):
   sys.exit(1)
 ```
 gazebo link error 날 경우
+
 sudo apt upgrade libignition-math2
+
 sudo apt-get install gstreamer1.0-* libgstreamer1.0-*
+
 sudo apt-get install libgstreamer-plugins-base1.0-dev
